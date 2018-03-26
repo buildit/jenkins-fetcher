@@ -2,7 +2,7 @@
 
 Simple groovy script used by the Buildit [Jenkins Image](https://github.com/buildit/jenkins-image) to download the version of Jenkins specified in a Jenkins Config File. 
 
-The jenkins version should be specified in the config as follows
+The component uses the [Jenkins Config Fetcher](https://github.com/buildit/jenkins-config-fetcher) to provide its configuration. The jenkins version should be specified in the config as follows
 
 ```groovy
 jenkins {
