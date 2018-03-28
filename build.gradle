@@ -21,6 +21,11 @@ buildscript {
 dependencies {
     runtime "com.buildit:artifact-fetcher:1.0.0"
     runtime "com.buildit.jenkins:jenkins-config-fetcher:1.4.0"
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.7'
+    testCompile 'org.eclipse.jetty:jetty-server:9.2.3.v20140905'
+    testCompile 'org.eclipse.jetty:jetty-security:9.2.3.v20140905'
+    testCompile 'org.assertj:assertj-core:3.7.0'
+    testCompile 'junit:junit:4.11'
 }
 
 group = "${project.groupId}"
