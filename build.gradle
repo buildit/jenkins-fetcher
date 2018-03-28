@@ -19,7 +19,7 @@ buildscript {
 }
 
 dependencies {
-    runtime "com.buildit:artifact-fetcher:1.0.0"
+    runtime "com.buildit:artifact-fetcher:1.4.0"
     runtime "com.buildit.jenkins:jenkins-config-fetcher:1.1.0"
 }
 
